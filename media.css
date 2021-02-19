@@ -1,0 +1,61 @@
+/*Default CSS layout for narrow screens*/
+
+@media (max-width: 420px), 
+{
+  /*CSS for medium width screens*/
+    .logo{
+        width: 3em;
+    }
+    
+    h1{
+        font-size: 1.7em;
+    }
+    .stories-line{
+    display: block;
+    margin: 0 auto;
+}
+    
+    .story-block{
+    background-color: #9984ab;
+    width: 80%;
+    padding: 2em 1em;
+    margin: 1em auto;
+        
+}
+    
+    .game-description{
+    text-align: center;
+    font-size: 1.3em;
+}
+    .inputs-block{
+    width: 90%;
+   margin: 0 auto;
+}
+    
+    input, ol, li{
+    font-size: 1.2em;
+}
+    input{
+    display: inline-block;
+     width:90%;
+}
+    ol li{
+    display: inline-block;
+    width: 90%;
+    padding-top: 0.6em;
+        padding-bottom: 0;
+}
+    
+    .story-image{
+    width: 80%;
+    margin: 1em auto;
+}
+}
+
+
+ 
+@media (max-width: 1000px) {
+  /*CSS for wide screens*/
+ 
+}
+
